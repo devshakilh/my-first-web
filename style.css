@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: ;
+
 }
 
 .orange-color {
@@ -8,6 +10,7 @@ body {
 
 section {
     display: flex;
+    padding-left: 4%;
 }
 
 .half-width {
@@ -22,10 +25,28 @@ section {
 .link-button {
     text-decoration: none;
     background-color: orange;
-
+    padding: 2% 5%;
+    border-radius: 5%;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
 }
 
 .top-banner {
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
 }
+
+section {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.dream-big {
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.link-button {}
