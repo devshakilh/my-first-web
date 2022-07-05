@@ -61,10 +61,23 @@ body {
     margin-right: 5%;
     padding: 5px;
     border-radius: 5px;
+
 }
 
 .expriences-area {
     background-image: url(/images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+#full-stack-devloper {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-devloper {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
