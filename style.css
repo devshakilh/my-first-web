@@ -8,7 +8,8 @@ body {
     color: orange;
 }
 
-section {
+.flexbile-container {
+
     display: flex;
     padding-left: 4%;
 }
@@ -37,7 +38,7 @@ section {
     background-repeat: no-repeat;
 }
 
-section {
+    {
     display: flex;
     margin-bottom: 150px;
 }
@@ -49,4 +50,21 @@ section {
 
 }
 
-.link-button {}
+.color-orange {
+    color: orange;
+}
+
+.exprincess-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.expriences-area {
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
